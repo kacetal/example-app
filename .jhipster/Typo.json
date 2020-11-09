@@ -1,0 +1,50 @@
+{
+  "name": "Typo",
+  "fields": [
+    {
+      "fieldName": "pageURL",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "reporterName",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "reporterComment",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "textBeforeTypo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "textTypo",
+      "fieldType": "String",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "textAfterTypo",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "correctionStatus",
+      "fieldType": "TypoStatus",
+      "fieldValues": "REPORTED,IN_PROGRESS,RESOLVED,CANCELED",
+      "fieldValidateRules": ["required"]
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20201109153245",
+  "entityTableName": "typo",
+  "dto": "mapstruct",
+  "pagination": "pagination",
+  "service": "serviceImpl",
+  "jpaMetamodelFiltering": true,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "",
+  "applications": ["typoReporter"]
+}

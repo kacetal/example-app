@@ -1,0 +1,28 @@
+{
+  "typoReporterApp": {
+    "typo": {
+      "home": {
+        "title": "Typos",
+        "createLabel": "Создать новый Typo",
+        "createOrEditLabel": "Создать или отредактировать Typo",
+        "notFound": "No Typos found"
+      },
+      "created": "Новый Typo создан с идентификатором {{ param }}",
+      "updated": "Typo обновлен с идентификатором {{ param }}",
+      "deleted": "Typo удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Typo {{ id }}?"
+      },
+      "detail": {
+        "title": "Typo"
+      },
+      "pageURL": "Page URL",
+      "reporterName": "Reporter Name",
+      "reporterComment": "Reporter Comment",
+      "textBeforeTypo": "Text Before Typo",
+      "textTypo": "Text Typo",
+      "textAfterTypo": "Text After Typo",
+      "correctionStatus": "Correction Status"
+    }
+  }
+}
